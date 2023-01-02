@@ -1,5 +1,5 @@
 #### REVISANDO ALGUNS CONCEITOS
-para ocultar algum arquivo no .gitignore é preciso alterar algo no arquivo a ser ocultado e salvar e só após isso é que sincronizamos com o GitHub
+Para ocultar algum arquivo no .gitignore é preciso alterar algo no arquivo a ser ocultado e salvar no vsc e só após isso é que sincronizamos com o GitHub. Precisamos colocar a extensão do arquivo. Ex: pro.md
 
 
 #### Instale o node.js em https://nodejs.org/en/ e crie uma pasta para o projeto chamado de API. Após isso, execute os comandos abaixo
