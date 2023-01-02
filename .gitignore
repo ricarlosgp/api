@@ -1,3 +1,2 @@
-# esse arquivo .gitignore é para não enviar a pasta node_modules e o arquivo pro.doc para o github pois ela contêm várias bibliotecas e acarreta lentidão
-readme
+readme.md
 node_modules
