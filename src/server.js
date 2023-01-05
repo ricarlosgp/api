@@ -1,11 +1,11 @@
 const express = require("express");
 
-                const app = express();
+const routes = require("./routes")
 
-                app.post("/users", (request, response) => {
+const app = express();
+app.use(express.json());   
 
-                    response.send("Você chamou o POST");
-                });
+app.use(routes);
 
 const PORT = 3333; 
 app.listen(PORT, () => console.log(`Server is running on Port ${PORT}`)); 
